@@ -6,8 +6,14 @@ body{
     height: 100vh;
     background-color: hsl(0, 0%, 95%);
 }
+#history {
+      text-align: left;
+      color: gray;
+      font-size: 1em;
+      height: 20px;
+    }
 
-#calculator{
+#main_calculator{
     font-family: Arial, Helvetica, sans-serif;
     background-color: hsl(0, 0%, 15%);
     border-radius: 25px;
@@ -25,7 +31,7 @@ body{
     color: white;
 }
 
-#keys{
+#all_keys{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;

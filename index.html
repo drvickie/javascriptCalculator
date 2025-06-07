@@ -10,9 +10,11 @@
 </head>
 
 <body>
-    <div id="calculator">
-        <input id="display" readonly> <!-- readonly ensures that nothing will be typed in directly-->
-        <div id="keys">
+    <div id="main_calculator">
+        <div id="history"></div>
+        <input type="text" id="display" readonly> <!-- readonly ensures that nothing will be typed in directly-->
+        
+        <div id="all_keys">
             <button onclick="appendToDisplay('+')" class="operator-btn">+</button>
             <button onclick="appendToDisplay('7')">7</button>
             <button onclick="appendToDisplay('8')">8</button>
